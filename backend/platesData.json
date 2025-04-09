@@ -1,0 +1,143 @@
+[
+    {
+      "name": "Feijoada",
+      "price": 35.00,
+      "available": true,
+      "description": "Prato típico brasileiro feito com feijão preto e carnes defumadas.",
+      "ingredients": [
+        "Feijão preto",
+        "Carne seca",
+        "Linguiça",
+        "Costelinha de porco",
+        "Alho",
+        "Cebola"
+      ],
+      "category": "Comida"
+    },
+    {
+      "name": "Acarajé",
+      "price": 12.00,
+      "available": true,
+      "description": "Bolinho frito feito com feijão-fradinho, recheado com vatapá e camarão.",
+      "ingredients": [
+        "Feijão-fradinho",
+        "Camarão seco",
+        "Vatapá",
+        "Dendê",
+        "Sal"
+      ],
+      "category": "Primeiro"
+    },
+    {
+      "name": "Pão de Queijo",
+      "price": 6.00,
+      "available": true,
+      "description": "Pão típico mineiro feito com polvilho e queijo.",
+      "ingredients": [
+        "Polvilho doce",
+        "Queijo minas",
+        "Leite",
+        "Ovos",
+        "Óleo"
+      ],
+      "category": "Segundo"
+    },
+    {
+      "name": "Coxinha",
+      "price": 7.00,
+      "available": true,
+      "description": "Salgado frito em forma de gota recheado com frango desfiado.",
+      "ingredients": [
+        "Farinha de trigo",
+        "Frango desfiado",
+        "Caldo de galinha",
+        "Cebola",
+        "Requeijão"
+      ],
+      "category": "Terceiro"
+    },
+    {
+      "name": "Pastel de Feira",
+      "price": 8.00,
+      "available": true,
+      "description": "Pastel crocante com recheios variados, tradicionalmente vendido em feiras.",
+      "ingredients": [
+        "Massa de pastel",
+        "Carne moída",
+        "Queijo",
+        "Palmito",
+        "Óleo"
+      ],
+      "category": "Segundo"
+    },
+    {
+      "name": "Moqueca Baiana",
+      "price": 40.00,
+      "available": false,
+      "description": "Prato de peixe cozido com leite de coco e dendê.",
+      "ingredients": [
+        "Peixe",
+        "Leite de coco",
+        "Azeite de dendê",
+        "Pimentão",
+        "Cebola"
+      ],
+      "category": "Primeiro"
+    },
+    {
+      "name": "Churrasco",
+      "price": 55.00,
+      "available": true,
+      "description": "Assado de diferentes carnes na brasa, tradicional em festas e encontros.",
+      "ingredients": [
+        "Picanha",
+        "Linguiça",
+        "Coração de frango",
+        "Sal grosso",
+        "Carvão"
+      ],
+      "category": "Terceiro"
+    },
+    {
+      "name": "Tapioca",
+      "price": 10.00,
+      "available": true,
+      "description": "Prato leve feito com goma de mandioca e recheios doces ou salgados.",
+      "ingredients": [
+        "Goma de tapioca",
+        "Coco ralado",
+        "Leite condensado",
+        "Queijo coalho",
+        "Manteiga"
+      ],
+      "category": "Terceiro"
+    },
+    {
+      "name": "Guaraná Natural",
+      "price": 5.00,
+      "available": true,
+      "description": "Bebida gaseificada feita a partir do fruto do guaraná.",
+      "ingredients": [
+        "Extrato de guaraná",
+        "Açúcar",
+        "Água com gás",
+        "Conservantes",
+        "Aromatizantes"
+      ],
+      "category": "Outro"
+    },
+    {
+      "name": "Caipirinha",
+      "price": 15.00,
+      "available": true,
+      "description": "Bebida alcoólica feita com cachaça, limão e açúcar.",
+      "ingredients": [
+        "Cachaça",
+        "Limão",
+        "Açúcar",
+        "Gelo"
+      ],
+      "category": "Outro"
+    }
+  ]
+  
