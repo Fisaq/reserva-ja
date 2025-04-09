@@ -3,6 +3,8 @@ import express from 'express';
 import cors from 'cors';
 import { Mongo } from './database/mongo.js';
 import { config } from 'dotenv';
+import authRouter from './auth/auth.js';
+import usersRouter from './routes/users.js';
 
 //Chamada das configuracoes do ambiente
 config();
@@ -28,11 +30,15 @@ async function main () {
             statusCode: 200,
             body: 'Bem vindo a Aplicação!'
         })
-    })
+    });
+
+    //Rotas
+    app.use('/auth', authRouter);
+    app.use('/users', usersRouter);
 
     app.listen(port, () => {
         console.log(`Server running on: http://${hostname}:${port}`)
-    })
+    });
 }
 
-main()
+main();
